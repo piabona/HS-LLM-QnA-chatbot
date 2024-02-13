@@ -3,7 +3,10 @@ DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
 
 ### Leaderboard 결과 
 - trial 1 (Feb 13) : 0.58578  [loss : 2.07]
-- trial 2 (Feb 13) :
+- trial 2 (Feb 13) : 0.66776  [loss : 0.20]
+- 
+
+-----
 
 ### 아이디어 리스트 
 - 모델링
@@ -26,8 +29,12 @@ DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
 - 분석 및 전처리
   - word embedding / 단어 사전 생성 / 세부 및 대분류 카테고리 확인하기 
 
+--------
+
 ### 경과 
 - 2/13 : kogpt + supervised fine tuning
-  - kogpt2 기본 답변생성 및 추론 baseline 만들기 : epoch 1 **0.58578 (trial 1)**  /  epoch 10   / epoch 20 / 
-
+  - kogpt2 기본 답변생성 및 추론 baseline 만들기
+  - epoch 1 **0.58578 (trial 1)**
+  - epoch 14 **0.66776 (trial 2)**  : Hansol_1__kogpt2_epoch14_loss0.2082 (LB 0.66776)
+  
 
