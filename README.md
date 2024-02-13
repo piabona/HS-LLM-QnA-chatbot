@@ -2,8 +2,8 @@
 DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
 
 # Leaderboard 결과 
-- trial 1 (2/13) : 0.58578
-- trial 2 (2/13) : 
+- trial 1 (Feb 13) : 0.58578  [loss : 2.07]
+- trial 2 (Feb 13) : 
 
 # 경과 
 - 2/13 : kogpt + supervised fine tuning
