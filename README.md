@@ -8,10 +8,17 @@ DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
 ### 아이디어 리스트 
 - 모델링
   - ~kogpt2 기본 답변생성 및 추론 baseline 만들기~  
-  - llama 기본 답변생성 및 추론 baseline 만들기
+  - Full fine tuning 말고 부분 학습 해보기
+    - PEFT
+    - LoRA
+    - Transfer learning (전이학습)
+    - Freezing (동결학습)
   - fine tuning 말고 RAG 방법 활용 추론 해보기
   - Self-supervised / Semi-supervised language 모델 활용해보기
   - Human based reinforced learning 적용
+- 모델 종류 
+  - LLaMA 기본 답변생성 및 추론 baseline 만들기 
+  - KoAlpaca 기본 답변생성 및 추론 baseline 만들기 https://github.com/Beomi/KoAlpaca
 - 증강
   - 문장간 유사도 혹은 단어들 포함 여부 확인 -> 문장들 세부분류하기 (category)
   - 2개, 3개, 4개 등등 질문 연합
