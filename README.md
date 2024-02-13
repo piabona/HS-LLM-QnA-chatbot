@@ -3,8 +3,8 @@ DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
 
 ### Leaderboard 결과 
 - trial 1 (Feb 13) : 0.58578  [loss : 2.07]
-- trial 2 (Feb 13) : 0.66776  [loss : 0.20]
-- 
+- trial 1-2 (Feb 13) : 0.66776  [loss : 0.20]
+- trial 2 (Feb 14) : 0.72278  [loss :0.17]
 
 -----
 
@@ -34,7 +34,10 @@ DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
 ### 경과 
 - 2/13 : kogpt + supervised fine tuning
   - kogpt2 기본 답변생성 및 추론 baseline 만들기
-  - epoch 1 **0.58578 (trial 1)**
-  - epoch 14 **0.66776 (trial 2)**  : Hansol_1__kogpt2_epoch14_loss0.2082 (LB 0.66776)
-  
+  - kogpt2 (6440개) epoch 1 **0.58578 (trial 1)**
+  - kogpt2 (6440개) epoch 14 **0.66776 (trial 1-2)**  : Hansol_1__kogpt2_epoch14_loss0.2082 (LB 0.66776)
+- 2/14 : llama + supervised fine tuning
+  - kogpt2 (26440개) epoch 6 **0.72278 (trial 2)**  : Hansol_2_kogpt2_trial2_date_2_13_epoch6_loss0.1751 (LB 0.72278) .ipynb
+  - kogpt2 (26440개) 
+   
 
