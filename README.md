@@ -25,6 +25,7 @@ DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
   - KoAlpaca 기본 답변생성 및 추론 baseline 만들기 https://github.com/Beomi/KoAlpaca
 - 증강
   - ~연결어 기준 2개 질문 연합~  : 20000개 증강 **LB 0.66776 -> 0.72278**
+  - ~연결어 기준 2개 질문 연합~  : 30000개 증강 **LB 0.66776 -> 
   - 3개, 4개 등등 질문 연합
   - 연결어 확장 : 역접어 (그러나, 그럼에도, 인과관계 표현 등등) 
   - 문장간 유사도 혹은 단어들 포함 여부 확인 -> 문장들 세부분류하기 (category)
@@ -41,7 +42,8 @@ DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
   - kogpt2 (6440개) epoch 1 **0.58578 (trial 1)**
   - kogpt2 (6440개) epoch 14 **0.66776 (trial 1-2)**  : Hansol_1__kogpt2_epoch14_loss0.2082 (LB 0.66776)
 - 2/14 : llama + supervised fine tuning
-  - kogpt2 (26440개) epoch 6 **0.72278 (trial 2)**  : Hansol_2_kogpt2_trial2_date_2_13_epoch6_loss0.1751 (LB 0.72278) .ipynb
-  - kogpt2 (26440개) epoch 14 0.71471 **(trial 2-2)** : 
+  - kogpt2 (26440개) epoch 6 **0.72278 (trial 2)**  : Hansol_2_kogpt2_trial2_date_2_13_epoch6_loss0.1751 (LB 0.72278).ipynb
+  - kogpt2 (26440개) epoch 14 **(trial 2-2)** : Hansol_2-2_kogpt2_trial2-2_date0214_06_epoch14_loss0.1417 (LB 0.71471).ipynb
+  - kogpt2 (36440개) epoch 
    
 
