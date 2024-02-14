@@ -5,6 +5,7 @@ DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
 - trial 1 (Feb 13) : 0.58578  [loss : 2.07]
 - trial 1-2 (Feb 13) : 0.66776  [loss : 0.20]
 - trial 2 (Feb 14) : 0.72278  [loss :0.17]
+- trial 2-2 (Feb 14) : 0.71471 [loss : 0.14]
 
 -----
 
@@ -41,6 +42,6 @@ DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
   - kogpt2 (6440개) epoch 14 **0.66776 (trial 1-2)**  : Hansol_1__kogpt2_epoch14_loss0.2082 (LB 0.66776)
 - 2/14 : llama + supervised fine tuning
   - kogpt2 (26440개) epoch 6 **0.72278 (trial 2)**  : Hansol_2_kogpt2_trial2_date_2_13_epoch6_loss0.1751 (LB 0.72278) .ipynb
-  - kogpt2 (26440개) 
+  - kogpt2 (26440개) epoch 14 0.71471 **(trial 2-2)** : 
    
 
