@@ -14,28 +14,32 @@ DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
   - ~kogpt2 기본 답변생성 및 추론 baseline 만들기~   : **LB 0.66776**
   - Full fine tuning 말고 부분 학습 해보기
     - PEFT
-    - LoRA
-    - Transfer learning (전이학습)
-    - Freezing (동결학습)
-  - fine tuning 말고 RAG 방법 활용 추론 해보기
+    - QLoRA
+    - ~Transfer learning (전이학습)~
+    - ~Freezing (동결학습)~
+  - ~fine tuning 말고 RAG 방법 활용 추론 해보기~ -> RAG 와 Fine tuning 한번에 
   - Self-supervised / Semi-supervised language 모델 활용해보기
   - Human based reinforced learning 적용
-- 모델 종류 
-  - LLaMA 기본 답변생성 및 추론 baseline 만들기 
+- 모델 종류
+  - '**yanolja/KoSOLAR-10.7B-v0.2**',
+  - '**ONS-AI-RESEARCH/ONS-SOLAR-10.7B**',
+  - 'kimwooglae/WebSquareAI-Instruct-KoSOLAR-10.7b-v0.5.34',
+  - '**LDCC/LDCC-SOLAR-10.7B**'
+  - ~LLaMA 기본 답변생성 및 추론 baseline 만들기~
   - KoAlpaca 기본 답변생성 및 추론 baseline 만들기 https://github.com/Beomi/KoAlpaca
 - 증강
   - ~연결어 기준 2개 질문 연합~  : 20000개 증강 **LB 0.66776 -> 0.72278**
   - ~연결어 기준 2개 질문 연합~  : 30000개 증강 **LB 0.66776 -> 
   - 3개, 4개 등등 질문 연합
   - 연결어 확장 : 역접어 (그러나, 그럼에도, 인과관계 표현 등등) 
-  - 문장간 유사도 혹은 단어들 포함 여부 확인 -> 문장들 세부분류하기 (category)
+  - 문장간 유사도 혹은 단어들 포함 여부 확인 -> **문장들 세부분류하기 (category) -> 카테고리 포함하여 생성시에 인식하도록** 
   - Q&A 사전학습모델로 학습 시켜서 데이터 증강 시킬 것 
 - 분석 및 전처리
   - word embedding / 단어 사전 생성 / 세부 및 대분류 카테고리 확인하기 
 - 답변 정제
   - 숫자 처리 / 영어 처리 등
 - 후처리
-  - similarity  / 답변을 평가하는 gpt 
+  - ~similarity  / 답변을 평가하는 gpt / Optuna로 cosine, jaccard 유사도 하이퍼파라미터 튜닝~
 --------
 
 ### 경과 
