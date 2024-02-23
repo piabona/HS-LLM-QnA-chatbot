@@ -1,6 +1,15 @@
 # HS-QnA-chatbot
 DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
 
+![image](https://github.com/piabona/HS-QnA-chatbot/assets/54427769/8cd13b6c-0a44-46e6-b703-465765ba3e7b)
+
+
+### 평가 기준 
+- 자체 모델 검증 방법
+- 데이터 전처리, 증강 
+- 모델 학습 
+- 모델 서빙 프로세스 제안 
+
 ### Leaderboard 결과 
 - trial 1 (Feb 13) : 0.58578  [loss : 2.07]
 - trial 1-2 (Feb 13) : 0.66776  [loss : 0.20]
@@ -10,6 +19,10 @@ DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
 -----
 
 ### 아이디어 리스트 
+- 모델 서빙프로세스
+  - 
+- 모델 자체 검증
+  - 
 - 모델링
   - ~kogpt2 기본 답변생성 및 추론 baseline 만들기~   : **LB 0.66776**
   - Full fine tuning 말고 부분 학습 해보기
