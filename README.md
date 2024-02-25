@@ -1,5 +1,6 @@
 # HS-QnA-chatbot
-DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
+- 목표 : sLLM 활용 챗봇 서비스 개발 (end user 수준)
+- DACON 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
 
 ![image](https://github.com/piabona/HS-QnA-chatbot/assets/54427769/8cd13b6c-0a44-46e6-b703-465765ba3e7b)
 
