@@ -20,4 +20,8 @@
 - Google Colab GPU (학습 V100, 추론 T4)
 
 ### Libraries 
-- 
+- `pandas` : 1.5.3
+- `numpy` : 1.25.2
+- `torch` : 2.2.1+cu121
+- `transformers` : 4.38.2
+- `sentence_transformers` : 
