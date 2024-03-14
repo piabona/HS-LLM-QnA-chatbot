@@ -4,7 +4,7 @@
 - https://dacon.io/competitions/official/236216/overview/description
 - LLM/NLP 챗봇 대회 (Cosine Similarity)
 - 한솔데코 도배하자와 관련된 다양한 질문과 상황을 제공하고, 이에 대한 정확하고 신속한 응답을 제공하는 AI 모델 개발
-- 성과 : 팀(3인) private 0.6%이내 - 3등/942팀
+- 성과 : 팀(3인) private 0.6%이내 - 3등/557팀
 - [발표자료 pdf](https://github.com/piabona/HS-QnA-chatbot/blob/4f83d4498e5c62329e7de4994b4e03a355ad9452/report/Hansoldeco_%E1%84%89%E1%85%A1%E1%86%B7%E1%84%8E%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1_ppt.pdf)
 
 ## Summary  
