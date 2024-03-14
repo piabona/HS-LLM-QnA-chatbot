@@ -24,4 +24,4 @@
 - `numpy` : 1.25.2
 - `torch` : 2.2.1+cu121
 - `transformers` : 4.38.2
-- `sentence_transformers` : 
+- `sentence_transformers` : 2.5.1
