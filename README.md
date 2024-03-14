@@ -8,7 +8,7 @@
 - [발표자료 pdf](https://github.com/piabona/HS-QnA-chatbot/blob/4f83d4498e5c62329e7de4994b4e03a355ad9452/report/Hansoldeco_%E1%84%89%E1%85%A1%E1%86%B7%E1%84%8E%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1_ppt.pdf)
 
 ## Summary  
-- **Data Preprocessing** : 형식 오류 문장, 질문간 유사도 동떨어진 문장 등을 확인 후 수정 및 대체하여 예외 문장 최소화
+- **Data Preprocessing** : 형식 오류 문장, 질문 간 유사도 동떨어진 문장 등을 확인 후 수정 및 대체하여 예외 문장 최소화
 - **Data Augmentation** : GPT 증강 및 인덱스 Permutation 활용 문장 간 연결 증강
 - **Modeling** : [KoGPT2](https://huggingface.co/skt/kogpt2-base-v2) Fine-Tuning, probabilistic sampling 
 - **Validation** : 증강 데이터 임의 추출하여 검증셋 생성, 검증답변 - 모델 생성답변 간 cosine 유사도 평균으로 모델 평가
