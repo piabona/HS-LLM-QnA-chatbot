@@ -1,6 +1,7 @@
 ## Dacon 도배하자 Q&A 챗봇 : 한솔데코 시즌2 AI 경진대회 [Private 3rd]
 
-- 대회 개요 (2024.01.29 ~ 2024.03.11) https://dacon.io/competitions/official/236216/overview/description
+- 대회 개요 (2024.01.29 ~ 2024.03.11)
+- https://dacon.io/competitions/official/236216/overview/description
 - LLM/NLP 챗봇 대회 (Cosine Similarity)
 - 한솔데코 도배하자와 관련된 다양한 질문과 상황을 제공하고, 이에 대한 정확하고 신속한 응답을 제공하는 AI 모델 개발
 - 성과 : 팀(3인) private 0.6%이내 - 3등/942팀
@@ -16,5 +17,7 @@
   
 ### Environment
 - OS: Linux-6.1.58+-x86_64-with-glibc2.35
-- Google Colab GPU
-- V100, T4
+- Google Colab GPU (학습 V100, 추론 T4)
+
+### Libraries 
+- 
