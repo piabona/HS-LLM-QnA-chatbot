@@ -1,4 +1,4 @@
-## Dacon 도배하자 Q&A 챗봇 : 한솔데코 시즌2 AI 경진대회 
+## Dacon 도배하자 Q&A 챗봇 : 한솔데코 시즌2 AI 경진대회 [2nd Prize]
 
 - 대회 개요 (2024.01.29 ~ 2024.03.11)
 - https://dacon.io/competitions/official/236216/overview/description
