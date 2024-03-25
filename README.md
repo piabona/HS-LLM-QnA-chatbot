@@ -4,7 +4,7 @@
 - https://dacon.io/competitions/official/236216/overview/description
 - LLM 챗봇 대회 (Cosine Similarity)
 - 한솔데코 도배하자와 관련된 다양한 질문과 상황에 대한 정확하고 신속한 응답을 제공하는 AI 모델 개발
-- 성과 : 팀(3인) private 0.6%이내 - 3등/557팀
+- 성과 : 팀(3인) private 0.36%이내 - 2등/557팀
 
 ## Summary  
 - **Data Preprocessing** : 형식 오류 문장, 질문 간 유사도 동떨어진 문장 등을 확인 후 수정 및 대체하여 예외 문장 최소화
